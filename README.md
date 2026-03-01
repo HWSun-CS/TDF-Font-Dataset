@@ -1,11 +1,12 @@
-# TDF-Font-Dataset: Dataset Generation Tools
+# ComplexGlyph-Flow: Dynamic Manifold Dataset & Generation Tools
 
-This repository contains the data processing and generation tools for the paper: "TDF-Font: Continuous Geometric Evolution for Few-shot Font Generation via Trajectory-based Diffeomorphic Flow".
+This repository contains the dynamic flow field dataset and temporal sequence generation tools for the paper: **"TDF-Font: Continuous Geometric Evolution for Few-shot Font Generation via Trajectory-based Diffeomorphic Flow"**.
 
 ## Overview
-This toolkit provides:
-- Log-Domain Diffeomorphic Demons registration scripts for font alignment.
-- Temporal sequence construction for font manifold sampling.
-- Data augmentation and normalization scripts.
+Designed to address the challenges of structurally complex glyphs with intricate topologies, this toolkit provides a deterministic and continuous geometric evaluation testbed. Key features include:
 
-⚠️ **Status:** The code and instructions are being organized and will be released simultaneously with the main model code.
+- **Diffeomorphic Registration:** Log-Domain Diffeomorphic Demons scripts for rigorous, topology-preserving font alignment (preventing stroke breakage and structural hallucinations).
+- **Temporal Sequence Construction:** Tools for continuous font manifold sampling, generating physical and dynamic ground-truth trajectories for Flow Matching supervision.
+- **Data Pipeline:** Comprehensive preprocessing, augmentation, and normalization scripts tailored for high-frequency Chinese characters and other topology-sensitive scripts.
+
+⚠️ **Status:** The dataset, complete generation scripts, and detailed usage instructions are currently being organized. They will be officially open-sourced and released alongside the main TDF-Font model code.
